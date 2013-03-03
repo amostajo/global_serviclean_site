@@ -7,19 +7,33 @@
  * @version 1.0
  */
 
+// Includes constants like PAGE_TITLE and other page PHP dependencies.
 include 'include/page_block/application.php';
 ?>
 <!DOCTYPE html>
 <html>
   <head>
     <title><?php echo PAGE_TITLE?></title>
-    <?php include 'include/page_block/html_head.php' ?>
+    <?php 
+    // Includes all custom CSS and BOOTSTRAP
+    include 'include/page_block/html_head.php';
+    ?>
   </head>
 
   <body>
-    <h1>Hello, world!</h1>
 
-    <?php include 'include/page_block/html_body_includes.php' ?>
+    <?php 
+    // Navigation bar
+    include 'include/page_block/nav.php';
+    ?>
+
+    <!--BODY-->
+
+    <?php 
+    // Includes all custom JS like JQUERY and BOOTSTRAP
+    include 'include/page_block/html_body_includes.php';
+    ?>
+    
   </body>
 
 </html>

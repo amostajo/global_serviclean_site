@@ -1,0 +1,35 @@
+/* General GLOBAL SERVICLEAN css */
+
+/*
+  The logo of the site.
+*/
+.logo {
+  display: inline-block;
+  background-image: url('./../img/logo_horizontal_megasmall.png');
+  background-repeat:no-repeat;
+  background-position:center; 
+  width: 218px;
+  height: 30px;
+}
+
+/*
+  Custom alteration of the nav.
+*/
+.nav-custom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*
+  Custom alteration of the nav.
+*/
+.nav-ul-margin {
+  margin-left: 30px;
+}
+
+/*
+  CSS alter for each nav option
+*/
+.nav-option {
+  font-weight: bold;
+}
