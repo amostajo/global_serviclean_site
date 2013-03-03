@@ -16,15 +16,22 @@
   Custom alteration of the nav.
 */
 .nav-custom {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/*
+  Custom alteration of the nav.
+*/
+.nav-section {
+  float: left;
 }
 
 /*
   Custom alteration of the nav.
 */
 .nav-ul-margin {
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
 }
 
 /*
@@ -32,4 +39,14 @@
 */
 .nav-option {
   font-weight: bold;
+}
+
+/**
+  Background to the carousel section.
+*/
+.carousel-custom {
+  background-color: #F3F3F3;
+  border-top: solid 1px #E6E6E6;
+  border-bottom: solid 1px #E6E6E6;
+  height: 350px;
 }

@@ -10,10 +10,10 @@
 <div id="nav">
   <nav class="container">
     <div class="nav-custom">
-      <div class="span2">
+      <div class="nav-section">
         <a id="logo" class="logo" href="page_template.php"></a>
       </div>
-      <div class="span8">
+      <div class="nav-section">
         <ul class="nav nav-pills nav-ul-margin">
           <li class="nav-option"><a href="#">Inicio</a></li>
           <li class="nav-option"><a href="#">Servicios</a></li>
