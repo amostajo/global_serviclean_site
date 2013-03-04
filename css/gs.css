@@ -16,7 +16,7 @@
   Custom alteration of the nav.
 */
 .nav-custom {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 /*
@@ -41,12 +41,37 @@
   font-weight: bold;
 }
 
-/**
+/*
   Background to the carousel section.
 */
 .carousel-custom {
+  margin-top: 5px;
   background-color: #F3F3F3;
   border-top: solid 1px #E6E6E6;
   border-bottom: solid 1px #E6E6E6;
   height: 350px;
+}
+
+/*
+  Customizable thumbnails.
+*/
+.thumbnails-custom {
+  margin-top: 20px;
+}
+
+/*
+  Customizable thumbnails.
+*/
+.thumbnail-custom {
+  text-align: center;
+}
+
+/*
+  Quotes
+*/
+.blockquote-custom {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-style: italic;
+  color: #828282;
 }
