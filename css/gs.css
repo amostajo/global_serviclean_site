@@ -31,7 +31,7 @@ footer {
 /*
   Custom alteration of the nav.
 */
-.nav-section {
+.nav-section, .div-float {
   float: left;
 }
 

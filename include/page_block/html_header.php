@@ -19,6 +19,7 @@ $page_title = isset($page_title) && !empty($page_title) ? ' - ' . $page_title : 
     <!-- Bootstrap -->
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="css/gs.css" rel="stylesheet">
+    <link href="css/mailer.css" rel="stylesheet">
   </head>
 
   <body>

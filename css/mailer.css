@@ -1,0 +1,8 @@
+/* Mailer CSS */
+
+/*
+  Loader should always start HIDDEN
+*/
+.mailer-loader {
+  visibility: hidden;
+}

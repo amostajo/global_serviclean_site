@@ -1,36 +1,67 @@
 <?php
 /**
- * Testing sample of how to use the mailer class.
- * WHO TO TEST:
- *    Call this on the browser like:
- *      - [GET] SAMPLE
- *      - http://mydomain/mailer_test.php?subject=Test email&body=This is the body of the message.&
+ * HTML page template.
  *
  * PHP version 5.3
  * @author Alejandro Mostajo
  * @version 1.0
  */
 
-include 'include/php/classes/arguments_class.php';
-include 'include/php/classes/mailer_class.php';
+$page_title = 'Plantilla de páginas';
 
-// Get arguments
-$args = new Arguments();
-// Assign variables
-$to = 'caemostajo@gmail.com';
-$from_name = 'Global Serviclean';
-$from_email = 'noreply@globalserviclean.com';
-$subject = $args->get('subject');
-$body = $args->get('body');
+// Includes constants like PAGE_TITLE and other page PHP dependencies.
+include 'include/page_block/application.php';
+?>
 
-// Create mailer
-$mailer = new Mailer($to, $from_name, $from_email);
-// Send email if expected args exist.
-if ($args->exists(array('subject','body'))) {
-  if (!$mailer->send($subject, $body)) {
-    throw new Exception("Couldn't send email. Server problems.");
-  }
-} else {
-  throw new Exception("Args missing... Subject and body.");
-}
+<?php 
+// Includes all custom CSS and BOOTSTRAP
+include 'include/page_block/html_header.php';
+?>
+
+<div class="container">
+  <form id="mailer" class="form-horizontal">
+    <input type="hidden" name="subject" value="<?php echo SUBJECT_CONTACTO;?>">
+
+    <div class="control-group">
+      <label class="control-label" for="nombre_completo">Nombre completo:</label>
+      <div class="controls">
+        <input type="text" name="nombre_completo" placeholder="Mi nombre">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="email">Email:</label>
+      <div class="controls">
+        <input type="text" name="email" placeholder="yo@email.com">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="mensaje">Mensaje:</label>
+      <div class="controls">
+        <textarea rows="3" name="mensaje" placeholder="Su mensaje aquí"></textarea>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <div class="controls">
+        <div class="row-fluid">
+          <div class="div-float">
+            <button id="mailer-btn" type="submit" class="btn"><i class="icon-envelope"></i> Enviar</button>
+          </div>
+          <div class="div-float">
+            <img id="mailer-loader" class="mailer-loader" src="img/ajax-loader.gif" alt="loader">
+          </div>
+          <div class="div-float">
+            <div id="mailer-results"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<?php 
+// Includes all custom CSS and BOOTSTRAP
+include 'include/page_block/html_footer.php';
 ?>

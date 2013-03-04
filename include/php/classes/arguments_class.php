@@ -61,9 +61,18 @@ class Arguments {
   }
 
   /**
+   * Returns all the arguments as an array.
+   *
+   * @return array with all args.
+   */
+  public function get_all () {
+    return $this->_args;
+  }
+
+  /**
    * Checks for all the GET and POST arguments, cleans the entry values and returns the information as an array.
    * 
-   * @return array with the args.
+   * @return nothing
    */
   private function get_args () {
     // GET arguments
