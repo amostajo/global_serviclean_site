@@ -31,5 +31,6 @@ $(document).ready(function() {
       // avoid to execute the actual submit of the form.
       return false; 
   });
-
+  // Validators
+  $(function () { $("input,textarea,select").not("[type=submit]").jqBootstrapValidation(); } );
 });
