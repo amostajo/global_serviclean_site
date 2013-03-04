@@ -16,7 +16,7 @@ footer {
   display: inline-block;
   background-image: url('./../img/logo_horizontal_megasmall.png');
   background-repeat:no-repeat;
-  background-position:center; 
+  margin-top: 3px;
   width: 218px;
   height: 30px;
 }
@@ -34,6 +34,8 @@ footer {
 .nav-section, .div-float {
   float: left;
 }
+
+
 
 /*
   Custom alteration of the nav.
@@ -110,4 +112,9 @@ footer {
 */
 .push {
     height: 80px; /* same as the footer */
+}
+
+.services-custom {
+  margin-top: 30px;
+  margin-left: 11px;
 }

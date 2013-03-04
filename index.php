@@ -24,7 +24,6 @@ include 'include/page_block/html_header.php';
 
 <div>
   <div class="container">
-
     <div class="span12 blockquote-custom">
       <h4>Por que la limpieza te brinda más que solo orden!</h4>
     </div>
