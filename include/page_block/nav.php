@@ -11,7 +11,7 @@
   <nav class="container">
     <div class="nav-custom">
       <div class="nav-section">
-        <a id="logo" class="logo" href="page_template.php"></a>
+        <a id="logo" class="logo" href="index.php"></a>
       </div>
       
       <div class="nav-section">
