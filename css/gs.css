@@ -29,13 +29,14 @@ footer {
 }
 
 /*
-  Custom alteration of the nav.
+  FLOATS
 */
-.nav-section, .div-float {
+.nav-section, .div-float, .icon-chevron-left {
   float: left;
 }
-
-
+.icon-chevron-right {
+  float: right;
+}
 
 /*
   Custom alteration of the nav.
