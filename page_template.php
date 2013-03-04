@@ -7,33 +7,20 @@
  * @version 1.0
  */
 
+$page_title = 'Plantilla de páginas';
+
 // Includes constants like PAGE_TITLE and other page PHP dependencies.
 include 'include/page_block/application.php';
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><?php echo PAGE_TITLE?></title>
-    <?php 
-    // Includes all custom CSS and BOOTSTRAP
-    include 'include/page_block/html_head.php';
-    ?>
-  </head>
 
-  <body>
+<?php 
+// Includes all custom CSS and BOOTSTRAP
+include 'include/page_block/html_header.php';
+?>
 
-    <?php 
-    // Navigation bar
-    include 'include/page_block/nav.php';
-    ?>
+<!--BODY-->
 
-    <!--BODY-->
-
-    <?php 
-    // Includes all custom JS like JQUERY and BOOTSTRAP
-    include 'include/page_block/html_body_includes.php';
-    ?>
-    
-  </body>
-
-</html>
+<?php 
+// Includes all custom CSS and BOOTSTRAP
+include 'include/page_block/html_footer.php';
+?>
