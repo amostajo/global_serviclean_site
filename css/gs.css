@@ -64,6 +64,10 @@ footer {
   height: 350px;
 }
 
+.carousel-margin {
+  margin-top: 19px;
+  
+}
 /*
   Customizable thumbnails.
 */
