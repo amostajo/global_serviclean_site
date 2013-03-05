@@ -32,30 +32,31 @@ include 'include/page_block/html_header.php';
       <ul class="thumbnails">
         <li class="span4">
           <div class="thumbnail-custom">
-            <img src="img/mascot_cleaning2.png" />
-            <h3>Limpieza</h3>
+            <img src="img/vacuum-icon.png"/>
+            <h3>Quienes somos</h3>
             <p>
-              Somos especialistas en la limpieza, comprometidos al trabajo organizado y eficiente. Somos especialistas en la limpieza, comprometidos al trabajo organizado y eficiente.
+              Somos una empresa dedicada a la limpieza de diferentes tipos de superficie.
+              Tenemos maquinaria pesada para las limpiezas mas extremas.
             </p>
           </div>
         </li>
 
         <li class="span4">
           <div class="thumbnail-custom">
-            <img src="img/mascot_washmachine.png" />
-            <h3>Limpieza</h3>
+            <img src="img/multiple-blue-icon.png" />
+            <h3>Enfoque</h3>
             <p>
-              Somos especialistas en la limpieza, comprometidos al trabajo organizado y eficiente. Somos especialistas en la limpieza, comprometidos al trabajo organizado y eficiente.
+              Sabemos que todo lugar necesita un tratado especifico para obtener buenos resultados, es por eso que somos especialistas en distintos tipos de limpieza.
             </p>
           </div>
         </li>
 
         <li class="span4">
           <div class="thumbnail-custom">
-            <img src="img/mascot_mail.png" />
-            <h3>Limpieza</h3>
+            <img src="img/clock.png" />
+            <h3>Rapidez</h3>
             <p>
-              Somos especialistas en la limpieza, comprometidos al trabajo organizado y eficiente. Somos especialistas en la limpieza, comprometidos al trabajo organizado y eficiente.
+              Nuestro equipo es ordenado, minuciuso y rápido lo cual hace que nuestra limpieza sea eficiente. 
             </p>
           </div>
         </li>
