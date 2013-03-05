@@ -102,6 +102,60 @@ include 'include/page_block/html_header.php';
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div><!-- /.carousel -->
+<h4 class="solicitud-heading">Solicitud de presupuesto:</h4>
+<form id="mailer" class="form-horizontal form-position">
+                     
+    <input type="hidden" name="subject" value="<?php echo SUBJECT_CONTACTO;?>">
+
+    <div class="control-group">
+      <label class="control-label" for="nombre_completo">Nombre completo:</label>
+      <div class="controls">
+        <input type="text" name="nombre_completo" placeholder="Mi nombre" required 
+            data-validation-required-message="Campo no puede estar vacío"
+            class="div-float">
+        <div class="help-block div-float"></div>
+      </div>
+    </div>
+
+    <div class="control-group ">
+      <div class="row-fluid">
+        <div>
+          <label class="control-label" for="email">Email:</label>
+        </div>
+        <div class="controls">
+          <input type="email" name="email" placeholder="usuario@email.com" required validemail
+              data-validation-required-message="Campo no puede estar vacío"
+              data-validation-validemail-message="Correo inválido"
+              class="div-float">
+        </div>
+        <div class="help-block div-float"></div>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="mensaje">Mensaje:</label>
+      <div class="controls">
+        <textarea rows="3" name="mensaje" placeholder="Su mensaje aquí" required 
+            data-validation-required-message="Campo no puede estar vacío"
+            class="div-float"></textarea>
+        <div class="help-block div-float"></div>
+
+      </div>
+   
+    </div>
+
+    <div class="row-fluid">
+      <div class="div-float">
+           <div class="form-actions"> 
+      <button id="mailer-btn " type="submit" class="btn btn-primary"><i class="icon-envelope icon-white"></i> Enviar</button>
+    </div>
+        <img id="mailer-loader" class="mailer-loader" src="img/ajax-loader.gif" alt="loader">
+      </div>
+      <div class="div-float">
+        <div id="mailer-results"></div>
+      </div>
+    </div>
+  </form>
 </div>
 
 <?php 
