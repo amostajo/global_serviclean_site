@@ -69,7 +69,7 @@ include 'include/page_block/html_header.php';
       <ul class="thumbnails">
         <li class="span4">
           <div class="thumbnail-custom">
-            <img src="img/vacuum-icon.png"/>
+            <img src="img/pulidora-main.png"/>
             <h3>Quienes somos</h3>
             <p>
               Somos una empresa dedicada a la limpieza de diferentes tipos de superficie.

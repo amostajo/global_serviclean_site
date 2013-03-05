@@ -25,17 +25,19 @@
              <b class="caret"></b>
              </a>
                 <ul class="dropdown-menu" >
-                <li><a href="#">Limpieza de Vidrios</a></li>
-                <li><a href="#">Limpieza de fin de obra</a></li>
                 <li><a href="#">Limpieza de mantenimiento</a></li>
-                <li><a href="#">Limpieza de techos</a></li>
+                <li><a href="#">Limpieza de fin de obra</a></li>
+                <li><a href="#">Limpieza de vidrios/fachada</a></li>
+                <li><a href="#">Limpieza de Industrias</a></li>
                 </ul>
            </li>
           <li class="nav-option"><a href="#"><i class="icon-resize-small"></i> Empleo</a></li>
-          
-
         </ul>
       </div>
-    </div>
+     </div>
+          <div class="socialnet-icons">
+          <a href="#" class="icon-chevron-right" ><img src="img/facebook.png" ></a>
+          <a href="#" class="icon-chevron-right social-margin" ><img src="img/rss.png" ></a>
+          </div>
   </nav>
 </div>

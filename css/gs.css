@@ -63,10 +63,11 @@ footer {
   border-bottom: solid 1px #E6E6E6;
   height: 350px;
 }
-
+/*
+  Adjust position of carousel.
+*/
 .carousel-margin {
-  margin-top: 19px;
-  
+  margin-top: 19px; 
 }
 /*
   Customizable thumbnails.
@@ -122,4 +123,32 @@ footer {
 .services-custom {
   margin-top: 30px;
   margin-left: 11px;
+}
+
+/*
+  SERVICES Clases:.
+*/
+.sidenav-margin {
+  margin-top: 30px; 
+}
+/*
+  Social net icons position
+*/
+.socialnet-icons {
+  float: right;
+  margin-top: 10px; 
+}
+.social-margin {
+  margin-right: 7px; 
+}
+
+.service-description {
+  
+  margin-top: 30px; 
+  margin-left: 260px; 
+}
+
+.presupuestobtn-position {
+  margin-top: 45px; 
+  margin-left: 14px; 
 }
