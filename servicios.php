@@ -29,7 +29,7 @@ include 'include/page_block/html_header.php';
     </ul>
 
     <a href="#" class="btn btn-warning presupuestobtn-position"><i class="icon-white icon-envelope"></i> Solicitar presupuesto</a>
-  
+    
   </div>
   <div class="service-description">
   <p> Este espacio es para la descripción de cada Servicio.</p>
@@ -65,8 +65,10 @@ include 'include/page_block/html_header.php';
            </li>
 
           </ul>
+          <img src="img/difusor.png" class="difusor-position" alt="" >
           <!--  Carousel - consult the Twitter Bootstrap docs at
       http://twitter.github.com/bootstrap/javascript.html#carousel -->
+
 <div id="this-carousel-id" class="carousel slide span8 Services-carousel-position" ><!-- class of slide for animation -->
     <div class="carousel-inner ">
           <div class="item active"><!-- class of active since it's the first item -->
@@ -102,9 +104,9 @@ include 'include/page_block/html_header.php';
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div><!-- /.carousel -->
-<h4 class="solicitud-heading">Solicitud de presupuesto:</h4>
+
 <form id="mailer" class="form-horizontal form-position">
-                     
+     <h4 class="solicitud-heading">Solicitud de presupuesto:</h4>                
     <input type="hidden" name="subject" value="<?php echo SUBJECT_CONTACTO;?>">
 
     <div class="control-group">

@@ -149,20 +149,28 @@ footer {
 }
 
 .presupuestobtn-position {
-  margin-top: 45px; 
+  margin-top: 70px; 
   margin-left: 14px; 
 }
 
 .Services-carousel-position {
-  margin-left: 260px; 
+  float: right;
+  margin-bottom: 0px; 
+  margin-right: 59px;
 }
 .solicitud-heading {
-  margin-top: 260px; 
+  margin-top: 100px; 
   margin-left: 45px; 
 }
 
 .form-position {
   margin-top: 25px; 
    
+}
+
+.difusor-position {
+  
+  margin-top: 0px; 
+  margin-left: 78px;  
 }
 
