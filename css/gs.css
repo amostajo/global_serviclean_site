@@ -43,7 +43,6 @@ footer {
 */
 .nav-ul-margin {
   margin-left: 20px;
-  margin-bottom: 0px;
 }
 
 /*
@@ -97,8 +96,7 @@ footer {
   Quotes
 */
 .footer-custom {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 0 5px 0;
   background-color: #F3F3F3;
   border-top: solid 1px #E6E6E6;
 }
@@ -117,12 +115,11 @@ footer {
   Wrapper magic fro sticky footer
 */
 .push {
-    height: 80px; /* same as the footer */
+  height: 80px; /* same as the footer */
 }
 
 .services-custom {
-  margin-top: 30px;
-  margin-left: 11px;
+  margin: 30px 0 0 11px;
 }
 
 /*
@@ -149,37 +146,30 @@ footer {
   margin-right: 7px; 
 }
 
-.service-description {
-  
-  margin-top: 30px; 
-  margin-left: 20px; 
+.service-description {  
+  margin: 30px 0 0 20px; 
 }
 
 .presupuestobtn-position {
-  margin-top: 60px; 
-  margin-left: 24px; 
+  margin: 60px 0 0 24px; 
 }
 
 .Services-carousel-position {
   float: right;
-  margin-bottom: 0px; 
-  margin-right: 59px;
 }
+
 .solicitud-heading {
-  margin-top: 100px; 
-  margin-left: 45px; 
+  text-align: center;
+  background-color: #1A86B9;
+  color: #FFF;
+  padding: 5px 0 5px 0;
+  margin-bottom: 20px;
 }
 
 .form-position {
   margin-top: 25px; 
-  background-color: #1A86B9;
-  color: #FFF;
-   
 }
 
 .difusor-position {
-  
-  margin-top: 0px; 
   margin-left: 78px;  
 }
-

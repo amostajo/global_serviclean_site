@@ -99,7 +99,10 @@ include 'include/page_block/html_header.php';
     <!-- /.carousel end-->
 
     <form id="mailer" class="form-horizontal form-position">
-      <h4 class="solicitud-heading">Solicitud de presupuesto:</h4>                
+      <div class="solicitud-heading">
+        <h4>Solicitud de presupuesto:</h4>                
+      </div>
+
       <input type="hidden" name="subject" value="<?php echo SUBJECT_CONTACTO;?>">
 
       <div class="control-group">
