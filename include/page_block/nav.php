@@ -11,7 +11,7 @@
   <nav class="container">
     <div class="nav-custom">
       <div class="nav-section">
-        <a id="logo" class="logo" href="index.php"></a>
+        <a id="logo" class="logo logo-position" href="index.php"></a>
       </div>
       
       <div class="nav-section">
@@ -29,6 +29,7 @@
             </ul>
           </li>
           <li class="nav-option"><a href="#"><i class="icon-resize-small"></i> Empleo</a></li>
+          <li class="nav-option"><a href="#"><i class="icon-hand-right"></i> Contacto</a></li>
         </ul>
       </div>
     </div>

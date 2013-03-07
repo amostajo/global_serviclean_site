@@ -20,50 +20,40 @@ include 'include/page_block/html_header.php';
 
 <div class="container">
 
-  <div class="span3">
+  <div class="span3 affix">    
     <a href="#" class="btn btn-warning presupuestobtn-position"><i class="icon-white icon-envelope"></i> Solicitar presupuesto</a>
-    <ul class="nav nav-list sidenav-margin">
+    <ul class="nav nav-list sidenav-margin ">
       <li class="active"><a href="#"><i class="icon-chevron-right"></i> Limpieza de mantenimiento</a></li>
       <li><a href="#"><i class="icon-chevron-right"></i> Limpieza de fin de obra</a></li>
       <li><a href="#"><i class="icon-chevron-right"></i> Limpieza de vidrios/fachadas</a></li>
       <li><a href="#"><i class="icon-chevron-right"></i> Limpieza de Industrias</a></li>  
-    </ul>   
+    </ul> 
+      <img src="img/sidebackground.png" alt="dropback" class="drop-background-position">
   </div>
 
-  <div class="span8">
-    <article class="service-description">
-      Este espacio es para la descripción de cada Servicio.
-    </article>
+  <div class="span8 span8-position">
+    <img src="img/difusor.png" alt="Atm" class="atomizador-position">
+    <p class="service-description">
+      Limpieza periódica de cualquier clase de establecimiento (oficinas, centros comerciales, locales comerciales, centros de salud, centros educativos, edificios y condominios.
+    </p>
 
     <ul class="thumbnails thumb-position">
-     <li class="span2">
-       <div class="thumbnail">
-       <img src="img/pulidora.png" alt="">
+     <li class="span2"> 
        <h4>Pulido</h4>
-       <p>Remocion de hongos en cualquier superficie</p>
-       </div>
+       <p>Remocion de hongos en cualquier superficie</p>             
      </li>
      <li class="span2">
-       <div class="thumbnail">
-       <img src="img/pulidora.png" alt="">
-       <h4>Pulido</h4>
-       <p>Remocion de hongos en cualquier superficie</p>
-       </div>
+       <h4>Desmanchado</h4>
+       <p>Removemos restos de pintura, cemento, silicona y otros materiales de obra.</p>
      </li>
       <li class="span2">
-       <div class="thumbnail">
-       <img src="img/pulidora.png" alt="">
-       <h4>Pulido</h4>
-       <p>Remocion de hongos en cualquier superficie</p>
-       </div>
-     </li>
+        <h4>Lavado</h4>
+        <p>Removemos partículas de polvo, humo y smog.  Utilizamos agua a presión cuando el tipo de suciedad así lo requiere</p>
+      </li>
       <li class="span2">
-       <div class="thumbnail">
-       <img src="img/pulidora.png" alt="">
-       <h4>Pulido</h4>
-       <p>Remocion de hongos en cualquier superficie</p>
-       </div>
-     </li>
+       <h4>Sellado</h4>
+       <p>Reparamos sellos (juntas de silicona) de vidrios sin carpintería (vidrios a hueso). Usamos empaques o siliconas compatibles con los soportes.</p>
+      </li>
     </ul>
 
     <!--  Carousel -->

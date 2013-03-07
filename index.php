@@ -34,9 +34,6 @@ include 'include/page_block/html_header.php';
           <div class="carousel-caption">
           <p>Limpieza de fin de obra</p>
           </div>
-
-
-
       </div>
       <div class="item">
       <img src="http://www.kremslehnerhotels.at/files/cms/sized/files/kremslehner-hotels/9-group-unternehmen/1-chronik/kremslehner-hotels-vienna-chronik-003-400-1200x400.jpg" alt="" />
