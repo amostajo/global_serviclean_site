@@ -129,8 +129,15 @@ footer {
   SERVICES Clases:.
 */
 .sidenav-margin {
-  margin-top: 30px; 
+  margin-top: 25px; 
 }
+/*
+  thumbnails: position.
+*/
+.thumb-position {
+  margin-top: 20px; 
+}
+
 /*
   Social net icons position
 */
@@ -145,12 +152,12 @@ footer {
 .service-description {
   
   margin-top: 30px; 
-  margin-left: 260px; 
+  margin-left: 20px; 
 }
 
 .presupuestobtn-position {
-  margin-top: 70px; 
-  margin-left: 14px; 
+  margin-top: 60px; 
+  margin-left: 24px; 
 }
 
 .Services-carousel-position {
@@ -165,6 +172,8 @@ footer {
 
 .form-position {
   margin-top: 25px; 
+  background-color: #1A86B9;
+  color: #FFF;
    
 }
 

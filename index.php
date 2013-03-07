@@ -24,13 +24,13 @@ include 'include/page_block/html_header.php';
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
     <div class="carousel-inner carousel-margin">
           <div class="item active"><!-- class of active since it's the first item -->
-          <img src="http://www.leclarissehotel.com/files/cms/sized/doccia-1200x400.jpg" alt="" />
+          <img src="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=efb74aa7c4&view=att&th=13d3da6780d1541f&attid=0.1&disp=inline&safe=1&zw&saduie=AG9B_P8VkISNglCUBfeFzO1zk1GS&sadet=1362539309213&sads=svJfHGZXxSW9j4rXBQxDelSLwsM" alt="" />
               <div class="carousel-caption">
               <p>Limpieza profunda de baños</p>
               </div>
           </div>
       <div class="item">
-      <img src="http://www.leclarissehotel.com/files/cms/sized/deluxe_sostituire-1200x400.jpg" alt="" />
+      <img src="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=efb74aa7c4&view=att&th=13d3d91042070c18&attid=0.4&disp=inline&safe=1&zw&saduie=AG9B_P8VkISNglCUBfeFzO1zk1GS&sadet=1362539316171&sads=B9Fkf0AYniZf26RREF7vcbjPSSo" alt="" />
           <div class="carousel-caption">
           <p>Limpieza de fin de obra</p>
           </div>
