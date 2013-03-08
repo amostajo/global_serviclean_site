@@ -20,7 +20,9 @@ include 'include/page_block/html_header.php';
 
 <div class="container">
 
-  <div class="span3 affix">    
+  <div class="span3 affix">
+    
+          
     <a href="#" class="btn btn-warning presupuestobtn-position"><i class="icon-white icon-envelope"></i> Solicitar presupuesto</a>
     <ul class="nav nav-list sidenav-margin ">
       <li class="active"><a href="#"><i class="icon-chevron-right"></i> Limpieza de mantenimiento</a></li>
@@ -32,6 +34,7 @@ include 'include/page_block/html_header.php';
   </div>
 
   <div class="span8 span8-position">
+
     <img src="img/difusor.png" alt="Atm" class="atomizador-position">
     <p class="service-description">
       Limpieza periódica de cualquier clase de establecimiento (oficinas, centros comerciales, locales comerciales, centros de salud, centros educativos, edificios y condominios.

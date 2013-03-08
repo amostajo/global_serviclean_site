@@ -7,15 +7,14 @@
  * @version 1.0
  */
 ?>
-<div id="nav">
-  <nav class="container">
+<div id="nav ">
+  <nav class="container navbar-fixed-top nav-background">
     <div class="nav-custom">
       <div class="nav-section">
         <a id="logo" class="logo logo-position" href="index.php"></a>
       </div>
-      
       <div class="nav-section">
-        <ul class="nav nav-pills nav-ul-margin">
+        <ul class="nav nav-pills nav-ul-margin ">
           <li class="nav-option"><a href="#"><i class="icon-home"></i> Inicio</a>  </li>           
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">

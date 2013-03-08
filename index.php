@@ -52,7 +52,7 @@ include 'include/page_block/html_header.php';
         href values must reference the id for this carousel -->
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
-</div><!-- /.carousel -->
+  </div><!-- /.carousel -->
   </div>
 </div>
 
