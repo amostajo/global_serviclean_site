@@ -7,8 +7,8 @@
  * @version 1.0
  */
 ?>
-<div id="nav ">
-  <nav class="container navbar-fixed-top nav-background">
+<div id="nav" class="navbar-fixed-top nav-background">
+  <nav class="container ">
     <div class="nav-custom">
       <div class="nav-section">
         <a id="logo" class="logo logo-position" href="index.php"></a>
