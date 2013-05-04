@@ -1,0 +1,25 @@
+/*
+  Home page css
+*/
+#myCarousel {
+  position: relative;
+}
+
+#nav {
+  top: auto;
+  display: block;
+  position: absolute;
+}
+
+.carousel-custom {
+  background-color: #F3F3F3;
+  border-top: solid 1px #E6E6E6;
+  border-bottom: solid 1px #E6E6E6;
+}
+
+.blockquote-custom {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-style: italic;
+  color: #828282;
+}

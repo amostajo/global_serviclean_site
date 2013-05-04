@@ -5,12 +5,15 @@ Web Site: Global Serviclean
 
 ## Development frameworks and libraries
 * [Bootstrap](http://twitter.github.com/bootstrap/), twitter's [cdn](http://www.bootstrapcdn.com/).
-* [jQuery](http://jquery.com/), jquery's [cdn](http://code.jquery.com/);
+* [jQuery](http://jquery.com/), google's [cdn](https://developers.google.com/speed/libraries/devguide#jquery;
+* [jQuery UI](http://jquery.com/), google's [cdn](https://developers.google.com/speed/libraries/devguide#jquery-ui);
+* [Laravel](http://laravel.com/)
 
 ## Code languages
 * [Php 5.3](http://php.net/)
 * HTML5
 * CSS3
+* JavaScript
 
 ## Team
 * Alejandro Mostajo (Piru) - Team&Tech leader, web designer, web developer.
