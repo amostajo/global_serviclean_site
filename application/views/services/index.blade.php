@@ -1,7 +1,7 @@
 @layout('master')
 <?php
 /**
- * Index - Game page.
+ * Services page.
  *
  * PHP version 5
  *
