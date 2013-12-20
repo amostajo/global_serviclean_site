@@ -1,0 +1,101 @@
+/*
+GLOBAL SITE CSS
+*/
+
+#logo {
+  background-image: url('./../img/logo_horizontal_small.png');
+  background-repeat:no-repeat;
+  width: 327px;
+  height: 45px;
+}
+
+/*
+  Footer
+*/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+nav, .logo-container {
+  padding: 15px 0 15px 0;
+}
+
+nav li a {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.logo-container {
+  background-color: #F4F4F4;
+}
+
+.alt-container {
+  background-color: #333; 
+}
+
+.nav-container, .footer-container {
+  background-color: #012440;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -12em;
+}
+
+.footer, .push {
+  height: 12em;
+}
+
+.footer {
+  padding: 20px 10px 0 10px;
+  color: #A5C2CD;
+}
+
+.footer a {
+  color: #FFF;
+}
+
+.footer a:hover {
+  color: #1FB7F0;
+  text-decoration: none;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.footer .hr {
+  background-color: #FFF;
+  opacity: 0.05;
+  height: 4px;
+  margin: 5px 0 20px 0;
+}
+
+.footer .footer-social-network li {
+  opacity: 0.5;
+}
+
+.footer .footer-social-network li:hover {
+  opacity: 1;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.new-tag {
+  margin-top: 20px;
+}
+
+.text-justified {
+  text-align: justify;
+}

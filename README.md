@@ -4,20 +4,16 @@ Web Site: Global Serviclean
 [Global serviclean](http://www.globalserviclean.com) web site. This web site will replace an old version of it. Developed exclusively for Global Serviclean.
 
 ## Development frameworks and libraries
-* [Bootstrap](http://twitter.github.com/bootstrap/), twitter's [cdn](http://www.bootstrapcdn.com/).
-* [jQuery](http://jquery.com/), google's [cdn](https://developers.google.com/speed/libraries/devguide#jquery;
-* [jQuery UI](http://jquery.com/), google's [cdn](https://developers.google.com/speed/libraries/devguide#jquery-ui);
-* [Laravel](http://laravel.com/)
+* [Bootstrap 3.0.2](http://twitter.github.com/bootstrap/), twitter's [cdn](http://www.bootstrapcdn.com/).
+* [jQuery 1.9.2](http://jquery.com/), google's [cdn](https://developers.google.com/speed/libraries/devguide#jquery;
+* [jQuery UI 1.10.2](http://jquery.com/), google's [cdn](https://developers.google.com/speed/libraries/devguide#jquery-ui);
+* [Laravel 4](http://laravel.com/)
 
 ## Code languages
 * [Php 5.3](http://php.net/)
 * HTML5
 * CSS3
 * JavaScript
-
-## Team
-* Alejandro Mostajo (Piru) - Team&Tech leader, web designer, web developer.
-* Carlos Eduardo Mostajo (Cae) - Web designer, web developer.
 
 
 Policies
@@ -28,5 +24,5 @@ By cloning or forking this project, you are approving these policies.
 
 Copyright
 =========
-This web site is property of [Global serviclean](http://www.globalserviclean.com) 
+This web site is property of [Global Serviclean](http://www.globalserviclean.com) 
 © 2013 Global Serviclean.
