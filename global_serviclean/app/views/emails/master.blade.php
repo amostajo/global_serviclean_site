@@ -22,7 +22,7 @@
     </header>
 
     {{-- Subject --}}
-    <section style="background-color:#012440;color:#FFF;padding:5px;margin-bottom:20px;">
+    <section style="background-color:#3B83BB;color:#FFF;padding:5px;margin-bottom:20px;">
       <h1>
         @section('email-subject')
         @show
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <footer style="background-color:#012440;color:#FFF;padding:15px">
+    <footer style="background-color:#012F53;color:#FFF;padding:15px">
       <div style="color:#AAA;">
         <small>{{ trans('global.email-no-reply') }}</small>
       </div>

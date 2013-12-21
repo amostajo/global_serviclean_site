@@ -10,7 +10,7 @@ return array(
 
   'budget-request'          => 'Solicitar cotización',
 
-  'company-name'            => 'Empresa',
+  'company-name'            => 'Nombre de la empresa',
 
   'name'                    => 'Nombre',
 
@@ -24,7 +24,7 @@ return array(
 
   'email'                   => 'Email',
 
-  'address'                 => 'Dirección',
+  'address'                 => 'Dirección exacta',
 
   'detail'                  => 'Detalle del servicio',
 
@@ -34,9 +34,9 @@ return array(
 
   'send'                    => 'Enviar',
 
-  'send-success'            => 'Si fuese necesario le solicitaremos completar el detalle del servicio y/o programaremos una inspección a sus instalaciones.',
+  'send-success'            => 'Su solicitud ha sido enviada. Si fuese necesario le pediremos completar el detalle del servicio y/o programaremos una inspección a sus instalaciones.',
 
-  'send-error'              => 'Su solicitud no pudo ser enviada. Por favor intente nuevamente más tarde.',
+  'send-error'              => 'Su solicitud no pudo ser enviada en estos momentos. Por favor intente nuevamente más tarde.',
 
   'email-subject'           => 'Solicitud de cotización - :service',
 

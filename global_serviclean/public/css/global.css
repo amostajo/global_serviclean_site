@@ -35,11 +35,27 @@ nav li a {
 }
 
 .alt-container {
-  background-color: #333; 
+  background-color: #666; 
 }
 
-.nav-container, .footer-container {
-  background-color: #012440;
+.nav-container {
+  background-color: #3B83BB; /* fallback color, place your own */
+
+  /* Gradients for modern browsers, replace as you see fit */
+  background-image: -moz-linear-gradient(top, #012F53, #3B83BB);
+  background-image: -ms-linear-gradient(top, #012F53, #3B83BB);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#012F53), to(#3B83BB));
+  background-image: -webkit-linear-gradient(top, #012F53, #3B83BB);
+  background-image: -o-linear-gradient(top, #012F53, #3B83BB);
+  background-image: linear-gradient(top, #012F53, #3B83BB);
+  background-repeat: repeat-x;
+
+  /* IE8-9 gradient filter */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#012F53', endColorstr='#3B83BB', GradientType=0);
+}
+
+.footer-container{
+  background-color: #012F53;
 }
 
 .wrapper {
@@ -63,7 +79,7 @@ nav li a {
 }
 
 .footer a:hover {
-  color: #1FB7F0;
+  color: #FFA200;
   text-decoration: none;
   transition: color 0.2s linear, background-color 0.2s linear;
 }
@@ -98,4 +114,14 @@ nav li a {
 
 .text-justified {
   text-align: justify;
+}
+
+.panel-budget {
+border-color: #FFA200;
+}
+
+.panel-budget .panel-heading {
+color: #FFF;
+background-color: #FFA200;
+border-color: #FFA200;
 }

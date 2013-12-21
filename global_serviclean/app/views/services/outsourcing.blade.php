@@ -35,3 +35,18 @@
 @section('service-hidden-input')
   {{ Form::hidden('service', trans('global.service_outsourcing')) }}
 @stop
+
+{{-- Service carousel --}}
+@section('service-carousel-slides')
+  <div class="slide">
+    {{ HTML::image('img/carousel/outsourcing/img001_300x200.jpg') }}
+  </div>
+
+  <div class="slide">
+    {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg') }}
+  </div>
+
+  <div class="slide">
+    {{ HTML::image('img/carousel/outsourcing/img003_300x200.jpg') }}
+  </div>
+@stop

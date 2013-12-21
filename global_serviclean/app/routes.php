@@ -15,6 +15,10 @@ Route::get('/', array('as' => 'home', function() {
   return View::make('home.index');
 }));
 
+Route::get('/contact', array('as' => 'contact', function() {
+  return View::make('other.contact');
+}));
+
 // Services, outsourcing
 Route::group(array('prefix' => 'services'), function()  {
   Route::get('/outsourcing', array('as' => 'outsourcing', function() {
@@ -29,13 +33,9 @@ Route::group(array('prefix' => 'processing', 'before' => 'csrf'), function()  {
 });
 
 Route::get('/email', array('as' => 'email', function() {
-  return View::make('emails.other.budget', array(
+  return View::make('emails.other.contact', array(
       'name' => 'Caballero Alvarado',
       'email' => 'prueba@gmail.com',
-      'company' => 'Amsgames',
-      'service' => 'Limpieza de tele',
-      'phone' => '8707-5105',
-      'address' => '',
-      'detail' => ''
+      'feedback' => 'Muy bonito el sitio'
   ));
 }));

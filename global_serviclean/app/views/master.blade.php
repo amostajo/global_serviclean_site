@@ -1,6 +1,6 @@
 <?php
 /**
- * Master layout.
+ * Master template.
  *
  * PHP version 5
  *
@@ -44,11 +44,11 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{trans('global.services')}} <span class="caret"></span></a> 
                   <ul class="dropdown-menu">
                     <li>
-                        {{HTML::link(
-                          URL::route('outsourcing'), 
-                          trans('global.service_outsourcing'), 
-                          array('alt' => trans('global.service_outsourcing'), 'title' => trans('global.service_outsourcing'))
-                        )}}
+                      {{HTML::link(
+                        URL::route('outsourcing'), 
+                        trans('global.service_outsourcing'), 
+                        array('alt' => trans('global.service_outsourcing'), 'title' => trans('global.service_outsourcing'))
+                      )}}
                     </li>
                     <li><a href="#">{{trans('global.service_builtend')}}</a></li>
                     <li><a href="#">{{trans('global.service_windows')}}</a></li>
@@ -57,7 +57,13 @@
                   </ul>
                 </li>
                 <li><a href="#">{{trans('global.employment')}}</a></li>
-                <li><a href="#">{{trans('global.contact')}}</a></li>
+                <li>
+                  {{HTML::link(
+                    URL::route('contact'), 
+                    trans('global.contact'), 
+                    array('alt' => trans('global.contact'), 'title' => trans('global.contact'))
+                  )}}
+                </li>
               </ul>
             </nav>
           </div>

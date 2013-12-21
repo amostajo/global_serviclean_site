@@ -8,7 +8,7 @@ $(document).ready(function(){
       }
   });
 
-  $('.alert').hide();
+  $('form .alert').hide();
 
   $.fn.Post = function (form, url) {
     var alert = $(form).find(".alert");

@@ -11,10 +11,18 @@
  */
 ?>
 
+{{-- Styles --}}
+@section('style')
+  @parent
+  {{ HTML::style('css/jquery.bxslider.css') }}
+@stop
+
 {{-- Scripts --}}
 @section('script')
   @parent
+  {{ HTML::script('js/jquery.bxslider.min.js') }}
   {{ HTML::script('js/jquery.ams.forms.js') }}
+  {{ HTML::script('js/jquery.gs.service.js') }}
 @stop
 
 {{-- Content --}}
@@ -33,13 +41,35 @@
 <div class="row new-tag">
 
   <div class="col-md-7 text-justified">
+    @section('service-carousel')
+      <div class="bxslider new-following-tag">
+        @section('service-carousel-slides')
+          <div class="slide">
+            {{ HTML::image('img/carousel/outsourcing/img001_300x200.jpg') }}
+          </div>
+
+          <div class="slide">
+            {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg') }}
+          </div>
+
+          <div class="slide">
+            {{ HTML::image('img/carousel/outsourcing/img003_300x200.jpg') }}
+          </div>
+
+          <div class="slide">
+            {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg') }}
+          </div>
+        @show
+      </div>
+      <div class="new-tag"></div>
+    @show
     @section('service-body')
     @show
   </div>
 
   <div class="col-md-5">
 
-    <div class="panel panel-primary">
+    <div class="panel panel-budget">
 
       <div class="panel-heading">
         <h3 class="panel-title">{{ trans('services.budget-request') }}</h3>
