@@ -111,11 +111,6 @@
           {{ Form::text('studies', '', array('class' => 'form-control', 'placeholder' => trans('employment.studies'))) }}
         </div>
 
-        <div class="form-group">
-          {{ Form::label('resume', trans('employment.resume')) }} <span class="text-info">{{ trans('employment.resume-size') }}</span>
-          {{ Form::file('resume', '', array('class' => 'form-control', 'placeholder' => trans('employment.resume'))) }}
-        </div>
-
         <div class="alert"></div>
 
         <button type="submit" class="btn btn-primary" data-loading-text="{{ trans('contact.send') }}...">

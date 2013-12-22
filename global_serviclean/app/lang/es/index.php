@@ -10,9 +10,9 @@ return array(
 
   'slogan'                  => 'Su limpieza, déjenla en nuestra manos!',
 
-  'ms1_title'               => 'FLEXIBILIDAD',
+  'ms1_title'               => 'DISPONIBILIDAD',
 
-  'ms1_summary'             => 'Horarios flexibles y a su disposición.',
+  'ms1_summary'             => 'Prestamos nuestros servicios cuando lo necesita.',
 
   'ms2_title'               => 'CALIDAD',
 

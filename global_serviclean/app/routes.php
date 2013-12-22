@@ -38,9 +38,15 @@ Route::group(array('prefix' => 'processing', 'before' => 'csrf'), function()  {
 });
 
 Route::get('/email', array('as' => 'email', function() {
-  return View::make('emails.other.contact', array(
-      'name' => 'Caballero Alvarado',
-      'email' => 'prueba@gmail.com',
-      'feedback' => 'Muy bonito el sitio'
-  ));
+  return View::make('emails.other.employment', array(
+      'name' => 'Pepe León',
+      'email' => 'prueba@gs.com',
+      'birthPlace' => 'Wachipato, CR',
+      'birthDate' => '78/51/1988',
+      'id' => '911155888',
+      'phone' => '60051553',
+      'address' => 'Home',
+      'studies' => 'Bachiller',
+      'status' => 'Soltero'
+));
 }));

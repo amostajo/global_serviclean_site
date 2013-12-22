@@ -12,15 +12,16 @@ return array(
 
   'slogan'                  => 'Outsourcing de Limpieza',
 
-  'body'                    => '<p>Suministramos personal de limpieza en la cantidad y con la disponibilidad horaria que demandan nuestros clientes el cliente, en función a sus actividades y/o presupuesto, por un mínimo de 4 horas al día y 5 días a la semana.</p>
+  'body'                    => '<p>Suministramos personal para <strong class="text-info">limpieza de oficinas</strong> y toda clase de instalaciones, en la cantidad y con la disponibilidad horaria que demandan nuestros clientes, en función a sus actividades y/o presupuesto, por un mínimo de 4 horas al día y 5 días a la semana.</p>
   <p><h3>Perfil del personal</h3></p>
-  <p>Procuramos que el personal suministrado tenga las siguientes característias:</p>
+  <p>Procuramos que el personal suministrado:</p>
   <p>
     <ul>
       <li>reside cerca de las instalaciones del cliente</li>
-      <li>tiene experiencia en limpieza, buena salud, buenos hábitos de higiene y conducta y referencias de trabajos anteriores</li>
-      <li>no tiene antecedentes penales</li>
-      <li>está debidamente uniformado</li>
+      <li>Tenga experiencia en limpieza y referencias de trabajos anteriores</li>
+      <li>Tenga buenos hábitos de higiene y conducta</li>
+      <li>No tenga antecedentes penales</li>
+      <li>Esté debidamente uniformado.</li>
     </ul>
   </p>
   <p><h3>Rutina de limpieza</h3></p>

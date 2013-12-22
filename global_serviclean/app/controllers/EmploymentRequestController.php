@@ -17,8 +17,7 @@ class EmploymentRequestController extends \BaseController {
         'phone' => Input::get('phone'),
         'address' => Input::get('address'),
         'studies' => Input::get('studies'),
-        'status' => Input::get('status'),
-        'resume' => Input::get('resume')
+        'status' => Input::get('status')
     );
     // Validation
     $validator = Validator::make(
@@ -31,8 +30,7 @@ class EmploymentRequestController extends \BaseController {
             trans('employment.phone') => $data['phone'],
             trans('employment.address') => $data['address'],
             trans('employment.studies') => $data['studies'],
-            trans('employment.status') => $data['status'],
-            trans('employment.resume') => $data['resume']
+            trans('employment.status') => $data['status']
         ),
         array(
             trans('employment.name') => 'required|min:10',
@@ -43,16 +41,15 @@ class EmploymentRequestController extends \BaseController {
             trans('employment.phone') => 'required|alpha_num|min:8',
             trans('employment.address') => 'required|min:10',
             trans('employment.studies') => 'required',
-            trans('employment.status') => 'required',
-            trans('employment.resume') => 'max:150|mimes:doc,docx,html,htm,zip,txt'
+            trans('employment.status') => 'required'
         )
     );
 
     if ($validator->passes()) {
 
       try {
-        Mail::send('emails.other.budget', $data, function($message) {
-            $message->to('info@globalserviclean.com')->subject(trans('services.email-subject', array('service' => $data['service'])));
+        Mail::send('emails.other.employment', $data, function($message) {
+            $message->to('info@globalserviclean.com')->subject(trans('employment.request'));
         });
       } catch (Exception $e) {
 
