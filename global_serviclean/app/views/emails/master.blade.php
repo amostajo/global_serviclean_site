@@ -18,7 +18,7 @@
   <body style="padding:15px;">
     {{-- Head --}}
     <header style="margin:20px 0 20px 0;">
-      <a href="{{ URL::route('home') }}">{{ HTML::image('img/logo_horizontal_small.png', '', array( 'alt' => trans('global.gs') )) }}</a>
+      <a href="{{ URL::route('home') }}">{{ HTML::image('img/logo_horizontal_mid.png', '', array( 'alt' => trans('global.gs') )) }}</a>
     </header>
 
     {{-- Subject --}}

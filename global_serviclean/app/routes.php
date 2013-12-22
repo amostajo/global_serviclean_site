@@ -19,6 +19,10 @@ Route::get('/contact', array('as' => 'contact', function() {
   return View::make('other.contact');
 }));
 
+Route::get('/employment', array('as' => 'employment', function() {
+  return View::make('other.employment');
+}));
+
 // Services, outsourcing
 Route::group(array('prefix' => 'services'), function()  {
   Route::get('/outsourcing', array('as' => 'outsourcing', function() {
@@ -30,6 +34,7 @@ Route::group(array('prefix' => 'services'), function()  {
 Route::group(array('prefix' => 'processing', 'before' => 'csrf'), function()  {
     Route::resource('contact', 'ContactUsController');
     Route::resource('budget', 'BudgetRequestController');
+    Route::resource('employment', 'EmploymentRequestController');
 });
 
 Route::get('/email', array('as' => 'email', function() {

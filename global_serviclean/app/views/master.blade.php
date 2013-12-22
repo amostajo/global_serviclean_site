@@ -56,7 +56,13 @@
                     <li><a href="#">{{trans('global.service_events')}}</a></li>
                   </ul>
                 </li>
-                <li><a href="#">{{trans('global.employment')}}</a></li>
+                <li>
+                  {{HTML::link(
+                    URL::route('employment'), 
+                    trans('global.employment'), 
+                    array('alt' => trans('global.employment'), 'title' => trans('global.employment'))
+                  )}}
+                </li>
                 <li>
                   {{HTML::link(
                     URL::route('contact'), 

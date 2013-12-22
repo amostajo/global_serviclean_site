@@ -3,10 +3,10 @@ GLOBAL SITE CSS
 */
 
 #logo {
-  background-image: url('./../img/logo_horizontal_small.png');
+  background-image: url('./../img/logo_horizontal_mid.png');
   background-repeat:no-repeat;
-  width: 327px;
-  height: 45px;
+  width: 164px;
+  height: 55px;
 }
 
 /*
