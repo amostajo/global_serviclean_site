@@ -58,8 +58,8 @@
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <div class="text-center">
-        <img src="http://www.evopiru.com/globalserviclean/public/img/home/clock.png" alt="">
+      <div class="text-center new-tag">
+        {{ HTML::image('img/index/availability.clock.png') }}
         <div class="caption">
           <h3>{{trans('index.ms1_title')}}</h3>
           <p>{{trans('index.ms1_summary')}}</p>
@@ -70,8 +70,8 @@
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <div class="text-center">
-        <img src="http://www.evopiru.com/globalserviclean/public/img/home/multiple-blue-icon.png" alt="">
+      <div class="text-center new-tag">
+        {{ HTML::image('img/index/quality.ribbon.png') }}
         <div class="caption">
           <h3>{{trans('index.ms2_title')}}</h3>
           <p>{{trans('index.ms2_summary')}}</p>
@@ -82,8 +82,8 @@
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <div class="text-center">
-        <img src="http://www.evopiru.com/globalserviclean/public/img/home/pulidora-main.png" alt="">
+      <div class="text-center new-tag">
+        {{ HTML::image('img/index/technology.png') }}
         <div class="caption">
           <h3>{{trans('index.ms3_title')}}</h3>
           <p>{{trans('index.ms3_summary')}}</p>
