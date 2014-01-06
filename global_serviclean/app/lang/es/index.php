@@ -8,7 +8,7 @@ return array(
   |--------------------------------------------------------------------------
   */
 
-  'slogan'                  => 'Su limpieza, déjenla en nuestra manos!',
+  'slogan'                  => 'Deje su limpieza en nuestras manos!',
 
   'ms1_title'               => 'DISPONIBILIDAD',
 

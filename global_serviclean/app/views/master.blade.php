@@ -47,27 +47,51 @@
                       {{HTML::link(
                         URL::route('outsourcing'), 
                         trans('global.service_outsourcing'), 
-                        array('alt' => trans('global.service_outsourcing'), 'title' => trans('global.service_outsourcing'))
+                        array('alt' => trans('global.service_outsourcing'))
                       )}}
                     </li>
-                    <li><a href="#">{{trans('global.service_builtend')}}</a></li>
-                    <li><a href="#">{{trans('global.service_windows')}}</a></li>
-                    <li><a href="#">{{trans('global.service_industrial')}}</a></li>
-                    <li><a href="#">{{trans('global.service_events')}}</a></li>
+                    <li>
+                      {{HTML::link(
+                        URL::route('windows'), 
+                        trans('global.service_windows'), 
+                        array('alt' => trans('global.service_windows'))
+                      )}}
+                    </li>
+                    <li>
+                      {{HTML::link(
+                        URL::route('constructionend'), 
+                        trans('global.service_constructionend'), 
+                        array('alt' => trans('global.service_constructionend'))
+                      )}}
+                    </li>
+                    <li>
+                      {{HTML::link(
+                        URL::route('deepcleaning'), 
+                        trans('global.service_deepcleaning'), 
+                        array('alt' => trans('global.service_deepcleaning'))
+                      )}}
+                    </li>
+                    <li>
+                      {{HTML::link(
+                        URL::route('industrial'), 
+                        trans('global.service_industrial'), 
+                        array('alt' => trans('global.service_industrial'))
+                      )}}
+                    </li>
                   </ul>
                 </li>
                 <li>
                   {{HTML::link(
                     URL::route('employment'), 
                     trans('global.employment'), 
-                    array('alt' => trans('global.employment'), 'title' => trans('global.employment'))
+                    array('alt' => trans('global.employment'))
                   )}}
                 </li>
                 <li>
                   {{HTML::link(
                     URL::route('contact'), 
                     trans('global.contact'), 
-                    array('alt' => trans('global.contact'), 'title' => trans('global.contact'))
+                    array('alt' => trans('global.contact'))
                   )}}
                 </li>
               </ul>
@@ -102,7 +126,7 @@
                 <div>
                   <small>
                     {{trans('global.powered_by')}} {{HTML::link('http://laravel.com/', 'Laravel', array('alt' => 'Laravel', 'title' => 'Laravel'))}}, 
-                    {{HTML::link('http://about.me/amostajo', 'Amostajo', array('alt' => 'Bearded', 'title' => 'Amostajo'))}}.
+                    {{trans('global.developed_by')}}  {{HTML::link('http://about.me/amostajo', 'Alejandro Mostajo', array('alt' => 'Bearded', 'title' => 'Amostajo'))}}.
                   </small>
                 </div>
               </div>

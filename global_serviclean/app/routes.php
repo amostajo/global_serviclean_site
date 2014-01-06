@@ -24,17 +24,29 @@ Route::get('/employment', array('as' => 'employment', function() {
 }));
 
 // Services, outsourcing
-Route::group(array('prefix' => 'services'), function()  {
+Route::group(array('prefix' => 'services'), function() {
   Route::get('/outsourcing', array('as' => 'outsourcing', function() {
     return View::make('services.outsourcing');
+  }));
+  Route::get('/constructionend', array('as' => 'constructionend', function() {
+    return View::make('services.constructionend');
+  }));
+  Route::get('/deepcleaning', array('as' => 'deepcleaning', function() {
+    return View::make('services.deepcleaning');
+  }));
+  Route::get('/windows', array('as' => 'windows', function() {
+    return View::make('services.windows');
+  }));
+  Route::get('/industrial', array('as' => 'industrial', function() {
+    return View::make('services.industrial');
   }));
 });
 
 // Web site ajax
-Route::group(array('prefix' => 'processing', 'before' => 'csrf'), function()  {
-    Route::resource('contact', 'ContactUsController');
-    Route::resource('budget', 'BudgetRequestController');
-    Route::resource('employment', 'EmploymentRequestController');
+Route::group(array('prefix' => 'processing', 'before' => 'csrf'), function() {
+  Route::resource('contact', 'ContactUsController');
+  Route::resource('budget', 'BudgetRequestController');
+  Route::resource('employment', 'EmploymentRequestController');
 });
 
 Route::get('/email', array('as' => 'email', function() {

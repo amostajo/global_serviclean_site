@@ -33,7 +33,9 @@ return array(
 
   'service_outsourcing'     => 'Personal de limpieza',
 
-  'service_builtend'        => 'Limpieza de fin de obra',
+  'service_constructionend' => 'Limpieza final de obra',
+
+  'service_deepcleaning'    => 'Limpieza profunda de inmuebles',
 
   'service_windows'         => 'Limpieza de vidrios y fachadas',
 
@@ -42,6 +44,8 @@ return array(
   'service_events'          => 'Limpieza de eventos',
 
   'powered_by'              => 'Desarrollado con',
+
+  'developed_by'            => 'por',
 
   'email-no-reply'          => 'Este correo ha sido enviado automáticamente por nuestro sistema. Por favor no responder a este remitente.',
 

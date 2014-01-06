@@ -38,8 +38,6 @@
 
   <div class="col-md-7 text-justified">
 
-    <p>{{ trans('employment.heading') }}</p>
-
     <p><h3>{{ trans('employment.benefits') }}</h3></p>
 
     <p>{{ trans('employment.benefits-list') }}</p>

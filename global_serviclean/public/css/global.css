@@ -117,11 +117,57 @@ nav li a {
 }
 
 .panel-budget {
-border-color: #FFA200;
+  border-color: #FFA200;
 }
 
 .panel-budget .panel-heading {
-color: #FFF;
-background-color: #FFA200;
-border-color: #FFA200;
+  color: #FFF;
+  background-color: #FFA200;
+  border-color: #FFA200;
+}
+
+.share {
+  float: right;
+  width: 39px;
+  height: 39px;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.share:hover {
+  cursor: pointer;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.share-twitter {
+  background-image: url('./../img/share/share_twitter.png');
+}
+
+.share-twitter:hover {
+  background-image: url('./../img/share/share_twitter_hover.png');
+}
+
+.share-facebook {
+  background-image: url('./../img/share/share_facebook.png');
+}
+
+.share-facebook:hover {
+  background-image: url('./../img/share/share_facebook_hover.png');
+}
+
+.share-gplus {
+  background-image: url('./../img/share/share_gplus.png');
+}
+
+.share-gplus:hover {
+  background-image: url('./../img/share/share_gplus_hover.png');
+}
+
+.share-linkedin {
+  background-image: url('./../img/share/share_linkedin.png');
+}
+
+.share-linkedin:hover {
+  background-image: url('./../img/share/share_linkedin_hover.png');
 }

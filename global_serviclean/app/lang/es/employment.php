@@ -8,7 +8,7 @@ return array(
   |--------------------------------------------------------------------------
   */
 
-  'heading'                 => '<span class="text-info">¿Tiene interés de formar parte de nuestra empresa?</span> El equipo humano es nuestro mayor activo y tenemos 2 años de experiencia en el sector de limpieza en Costa Rica',
+  'heading'                 => '',
 
   'requirements'            => 'Requisitos de trabajo',
 
@@ -33,7 +33,7 @@ return array(
 
   'request'                 => 'Solicitud de empleo',
 
-  'request-legend'          => 'Con el cumplimiento de los requisitos y sin compromiso, envíenos la siguiente solicitud:',
+  'request-legend'          => 'Si desea formar parte de nuestra empresa y cumple con los requisitos, envíenos la siguiente solicitud:',
 
   'name'                    => 'Nombre',
 

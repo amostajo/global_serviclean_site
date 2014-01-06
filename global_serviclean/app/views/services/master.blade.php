@@ -27,15 +27,25 @@
 
 {{-- Content --}}
 @section('content')
-<div>
-  <h1>
-    @section('service-title')
-    @show
-    <small>
-      @section('service-slogan')
+<div class="row">
+  <div class="col-md-10">
+    <h1>
+      @section('service-title')
       @show
-    </small>
-  </h1>
+      <small>
+        @section('service-slogan')
+        @show
+      </small>
+    </h1>
+  </div>
+
+  <div class="col-md-2">
+    <div class="share share-linkedin" onclick="window.open('{{ Share::load(Request::url())->linkedin() }}')"></div>
+    <div class="share share-gplus" onclick="window.open('{{ Share::load(Request::url())->gplus() }}')"></div>
+    <div class="share share-twitter" onclick="window.open('{{ Share::load(Request::url())->twitter() }}')"></div>
+    <div class="share share-facebook" onclick="window.open('{{ Share::load(Request::url())->facebook() }}')"></div>
+  </div>
+
 </div>
 
 <div class="row new-tag">
