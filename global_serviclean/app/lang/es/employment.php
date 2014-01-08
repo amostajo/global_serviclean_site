@@ -51,6 +51,18 @@ return array(
 
   'address'                 => 'Dirección exacta',
 
+  'province'                => 'Provincia',
+
+  'canton'                  => 'Cantón',
+
+  'district'                => 'Distrito',
+
+  'province-hint'           => 'Provincia donde vive',
+
+  'canton-hint'             => 'Cantón donde vive',
+
+  'district-hint'           => 'Distrito donde vive',
+
   'phone'                   => 'Teléfono',
 
   'email'                   => 'Email',

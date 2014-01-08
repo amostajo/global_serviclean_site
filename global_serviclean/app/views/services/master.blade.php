@@ -40,10 +40,18 @@
   </div>
 
   <div class="col-md-2">
-    <div class="share share-linkedin" onclick="window.open('{{ Share::load(Request::url())->linkedin() }}')"></div>
-    <div class="share share-gplus" onclick="window.open('{{ Share::load(Request::url())->gplus() }}')"></div>
-    <div class="share share-twitter" onclick="window.open('{{ Share::load(Request::url())->twitter() }}')"></div>
-    <div class="share share-facebook" onclick="window.open('{{ Share::load(Request::url())->facebook() }}')"></div>
+    <div class="share share-linkedin" onclick="window.open('{{ Share::load(Request::url())->linkedin() }}')" 
+        data-toggle="tooltip" data-placement="left" 
+        title="" data-original-title="{{ trans('global.share', array('share' => trans('global.linkedin')) ) }}"></div>
+    <div class="share share-gplus" onclick="window.open('{{ Share::load(Request::url())->gplus() }}')" 
+        data-toggle="tooltip" data-placement="left" 
+        title="" data-original-title="{{ trans('global.share', array('share' => trans('global.gplus')) ) }}"></div>
+    <div class="share share-twitter" onclick="window.open('{{ Share::load(Request::url())->twitter() }}')" 
+        data-toggle="tooltip" data-placement="left" 
+        title="" data-original-title="{{ trans('global.share', array('share' => trans('global.twitter')) ) }}"></div>
+    <div class="share share-facebook" onclick="window.open('{{ Share::load(str_replace('http://', '', Request::url()))->facebook() }}')" 
+        data-toggle="tooltip" data-placement="left" 
+        title="" data-original-title="{{ trans('global.share', array('share' => trans('global.facebook')) ) }}"></div>
   </div>
 
 </div>

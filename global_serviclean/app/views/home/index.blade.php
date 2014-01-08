@@ -33,13 +33,13 @@
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image001.jpg', '', array( 'title' => trans('global.service_outsourcing') )) }}
+            {{ HTML::image('img/carousel/image001.jpg') }}
           </a>
         </div>
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image002.jpg', '', array( 'title' => trans('global.service_windows') )) }}
+            {{ HTML::image('img/carousel/image002.jpg') }}
           </a>
         </div>
 
@@ -57,7 +57,7 @@
 <div class="row text-center new-tag">
 
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div>
       <div class="text-center new-tag">
         {{ HTML::image('img/index/availability.clock.png') }}
         <div class="caption">
@@ -69,7 +69,7 @@
   </div>
 
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div>
       <div class="text-center new-tag">
         {{ HTML::image('img/index/quality.ribbon.png') }}
         <div class="caption">
@@ -81,7 +81,7 @@
   </div>
 
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div>
       <div class="text-center new-tag">
         {{ HTML::image('img/index/technology.png') }}
         <div class="caption">

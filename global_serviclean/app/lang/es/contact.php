@@ -8,7 +8,7 @@ return array(
   |--------------------------------------------------------------------------
   */
 
-  'alert-budget-request'    => 'Para <strong>solicitar una cotización</strong>, seleccione uno de nuestros servicios y <strong>llene el formulario de cotización</strong>; ó llame al <strong>(506) 7013-3977</strong> para más información.',
+  'alert-budget-request'    => 'Para <strong>solicitar una cotización</strong>, seleccione uno de nuestros servicios y <strong>llene el formulario de cotización</strong>; ó llame al <strong class="text-info">(506) 7013-3977</strong> para más información.',
 
   'phone'                   => 'Telféfono',
 

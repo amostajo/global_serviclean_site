@@ -95,13 +95,23 @@
         </div>
 
         <div class="form-group new-tag">
-          {{ Form::label('address', trans('employment.address')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('address', '', array('class' => 'form-control', 'placeholder' => trans('employment.address'))) }}
+          {{ Form::label('phone', trans('employment.phone')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
+          {{ Form::text('phone', '', array('class' => 'form-control', 'placeholder' => trans('employment.phone'))) }}
         </div>
 
         <div class="form-group new-tag">
-          {{ Form::label('phone', trans('employment.phone')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('phone', '', array('class' => 'form-control', 'placeholder' => trans('employment.phone'))) }}
+          {{ Form::label('province', trans('employment.province')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
+          {{ Form::text('province', '', array('class' => 'form-control', 'placeholder' => trans('employment.province-hint'))) }}
+        </div>
+
+        <div class="form-group new-tag">
+          {{ Form::label('canton', trans('employment.canton')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
+          {{ Form::text('canton', '', array('class' => 'form-control', 'placeholder' => trans('employment.canton-hint'))) }}
+        </div>
+
+        <div class="form-group new-tag">
+          {{ Form::label('district', trans('employment.district')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
+          {{ Form::text('district', '', array('class' => 'form-control', 'placeholder' => trans('employment.district-hint'))) }}
         </div>
 
         <div class="form-group new-tag">

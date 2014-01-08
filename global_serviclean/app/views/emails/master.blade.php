@@ -17,16 +17,16 @@
 
   <body style="padding:15px;">
     {{-- Head --}}
-    <header style="margin:20px 0 20px 0;">
+    <header style="margin:10px 0 10px 0;">
       <a href="{{ URL::route('home') }}">{{ HTML::image('img/logo_horizontal_mid.png', '', array( 'alt' => trans('global.gs') )) }}</a>
     </header>
 
     {{-- Subject --}}
-    <section style="background-color:#3B83BB;color:#FFF;padding:5px;margin-bottom:20px;">
-      <h1>
+    <section style="background-color:#3B83BB;color:#FFF;padding:2px;margin-bottom:10px;">
+      <h2>
         @section('email-subject')
         @show
-      </h1>
+      </h2>
     </section>
 
     {{-- Email body --}}
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <footer style="background-color:#012F53;color:#FFF;padding:15px">
+    <footer style="background-color:#012F53;color:#FFF;padding:5px">
       <div style="color:#AAA;">
         <small>{{ trans('global.email-no-reply') }}</small>
       </div>

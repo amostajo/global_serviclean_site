@@ -33,7 +33,7 @@
   <div class="col-md-7 text-justified">
 
     <address>
-      <strong>{{ trans('contact.address1-title') }}</strong><br>
+      <h3>{{ trans('contact.address1-title') }}</h3>
       {{ trans('contact.address1-line1') }}<br>
       {{ trans('contact.address1-line2') }}<br>
       {{ trans('contact.address1-line3') }}<br>
@@ -42,7 +42,7 @@
     </address>
 
     <address>
-      <strong>{{ trans('contact.address2-title') }}</strong><br>
+      <h3>{{ trans('contact.address2-title') }}</h3>
       {{ trans('contact.address2-line1') }}<br>
       {{ trans('contact.address2-line2') }}<br>
       {{ trans('contact.address2-line3') }}<br>

@@ -18,45 +18,38 @@
 
 {{-- Body --}}
 @section('email-body')
-  <div style="padding:10px;background-color:#F2F2F2;">
+  <div style="padding:5px;background-color:#F2F2F2;">
     <address>
-      <h1>{{ $name }} <small><a href="mailto:{{ $email }}">{{ $email }}</a></small></h1>      
+      <h3>{{ $name }} <small><a href="mailto:{{ $email }}">{{ $email }}</a></small></h3>
     </address>
   </div>
 
   <p>
-    <h3>{{ trans('employment.id') }}</h3>
-    {{ $id }}
+    <h3>{{ trans('employment.id') }}: <small>{{ $id }}</small></h3>    
   </p>
 
   <p>
-    <h3>{{ trans('employment.birth-place') }}</h3>
-    {{ $birthPlace }}
+    <h3>{{ trans('employment.birth-place') }}: <small>{{ $birthPlace }}</small></h3>
   </p>
 
   <p>
-    <h3>{{ trans('employment.birth-date') }}</h3>
-    {{ $birthDate }}
+    <h3>{{ trans('employment.birth-date') }}: <small>{{ $birthDate }}</small></h3>
   </p>
 
   <p>
-    <h3>{{ trans('employment.status') }}</h3>
-    {{ $status }}
+    <h3>{{ trans('employment.status') }}: <small>{{ $status }}</small></h3>
   </p>
 
   <p>
-    <h3>{{ trans('employment.address') }}</h3>
-    {{ $address }}
+    <h3>{{ trans('employment.address') }}: <small>{{ $district }}, {{ $canton }}, {{ $province }}</small></h3>
   </p>
 
   <p>
-    <h3>{{ trans('employment.phone') }}</h3>
-    {{ $phone }}
+    <h3>{{ trans('employment.phone') }}: <small>{{ $phone }}</small></h3>
   </p>
 
   <p>
-    <h3>{{ trans('employment.studies') }}</h3>
-    {{ $studies }}
+    <h3>{{ trans('employment.studies') }}: <small>{{ $studies }}</small></h3>
   </p>
 
 @stop

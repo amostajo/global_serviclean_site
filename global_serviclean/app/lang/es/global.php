@@ -49,4 +49,14 @@ return array(
 
   'email-no-reply'          => 'Este correo ha sido enviado automáticamente por nuestro sistema. Por favor no responder a este remitente.',
 
+  'share'                   => 'Compartir en :share',
+
+  'twitter'                 => 'Twitter',
+
+  'facebook'                => 'Facebook',
+
+  'gplus'                   => 'Google +',
+
+  'linkedin'                => 'LinkedIn',
+
 );

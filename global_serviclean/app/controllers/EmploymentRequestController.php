@@ -15,7 +15,9 @@ class EmploymentRequestController extends \BaseController {
         'birthDate' => Input::get('birthDate'),
         'id' => Input::get('id'),
         'phone' => Input::get('phone'),
-        'address' => Input::get('address'),
+        'province' => Input::get('province'),
+        'canton' => Input::get('canton'),
+        'district' => Input::get('district'),
         'studies' => Input::get('studies'),
         'status' => Input::get('status')
     );
@@ -28,7 +30,9 @@ class EmploymentRequestController extends \BaseController {
             trans('employment.birth-date') => $data['birthDate'],
             trans('employment.id') => $data['id'],
             trans('employment.phone') => $data['phone'],
-            trans('employment.address') => $data['address'],
+            trans('employment.province') => $data['province'],
+            trans('employment.canton') => $data['canton'],
+            trans('employment.district') => $data['district'],
             trans('employment.studies') => $data['studies'],
             trans('employment.status') => $data['status']
         ),
@@ -39,7 +43,9 @@ class EmploymentRequestController extends \BaseController {
             trans('employment.birth-date') => 'required',
             trans('employment.id') => 'required|integer',
             trans('employment.phone') => 'required|alpha_num|min:8',
-            trans('employment.address') => 'required|min:10',
+            trans('employment.province') => 'required|min:5',
+            trans('employment.canton') => 'required|min:5',
+            trans('employment.district') => 'required|min:5',
             trans('employment.studies') => 'required',
             trans('employment.status') => 'required'
         )

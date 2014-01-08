@@ -25,18 +25,16 @@
 @section('email-body')
   <div style="padding:10px;background-color:#F2F2F2;">
     <address>
-      <h1>{{ $name }} <small><a href="mailto:{{ $email }}">{{ $email }}</a></small></h1>      
+      <h3>{{ $name }} <small><a href="mailto:{{ $email }}">{{ $email }}</a></small></h3>
     </address>
   </div>
 
   <p>
-    <h3>{{ trans('services.phone') }}</h3>
-    {{ $phone }}
+    <h3>{{ trans('services.phone') }}: <small>{{ $phone }}</small></h3>
   </p>
 
   <p>
-    <h3>{{ trans('services.company-name') }}</h3>
-    {{ $company }}
+    <h3>{{ trans('services.company-name') }}: <small>{{ $company }}</small></h3>
   </p>
 
   <p>

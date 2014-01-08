@@ -11,4 +11,6 @@ $(document).ready(function(){
       auto: true,
       adaptiveHeight: false
   });
+
+  $('.share').tooltip();
 });

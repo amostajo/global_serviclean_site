@@ -50,15 +50,13 @@ Route::group(array('prefix' => 'processing', 'before' => 'csrf'), function() {
 });
 
 Route::get('/email', array('as' => 'email', function() {
-  return View::make('emails.other.employment', array(
+  return View::make('emails.other.budget', array(
       'name' => 'Pepe León',
       'email' => 'prueba@gs.com',
-      'birthPlace' => 'Wachipato, CR',
-      'birthDate' => '78/51/1988',
-      'id' => '911155888',
+      'company' => 'Wachipato CR',
       'phone' => '60051553',
-      'address' => 'Home',
-      'studies' => 'Bachiller',
-      'status' => 'Soltero'
+      'service' => 'Personal de limpieza',
+      'address' => 'Quiero mi servicio aqui',
+      'detail' => 'Quiero mi servicio aqui',
 ));
 }));
