@@ -33,12 +33,6 @@
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image000.jpg') }}
-          </a>
-        </div>
-
-        <div class="slide">
-          <a href="">
             {{ HTML::image('img/carousel/image002.jpg') }}
           </a>
         </div>
@@ -52,6 +46,12 @@
         <div class="slide">
           <a href="">
             {{ HTML::image('img/carousel/image001.jpg') }}
+          </a>
+        </div>
+
+        <div class="slide">
+          <a href="">
+            {{ HTML::image('img/carousel/image000.jpg') }}
           </a>
         </div>
 

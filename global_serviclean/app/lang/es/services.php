@@ -38,7 +38,7 @@ return array(
 
   'send-error'              => 'Su solicitud no pudo ser enviada en estos momentos. Por favor intente nuevamente más tarde.',
 
-  'email-subject'           => 'Solicitud de cotización - :service',
+  'email-subject'           => 'Solicitud de cotización',
 
   'email-hint'              => 'Se nos a solicitado la cotización (presupuesto) para el servicio de <strong>:service</strong> a través de nuestro sitio web.',
 

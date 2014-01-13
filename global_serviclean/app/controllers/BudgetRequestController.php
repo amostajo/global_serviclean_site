@@ -36,14 +36,16 @@ class BudgetRequestController extends \BaseController {
     if ($validator->passes()) {
 
       try {
+
         Mail::send('emails.other.budget', $data, function($message) {
-            $message->to('info@globalserviclean.com')->subject(trans('services.email-subject', array('service' => $data['service'])));
+            $message->to('info@globalserviclean.com')->subject(trans('services.email-subject'));
         });
+
       } catch (Exception $e) {
 
         return Response::json(array(
             'error' => true,
-            'message' => trans('services.send-error'),
+            'message' => trans('contact.send-error'),
             200
         ));
 
