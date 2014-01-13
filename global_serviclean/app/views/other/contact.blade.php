@@ -47,7 +47,7 @@
       {{ trans('contact.address2-line2') }}<br>
       {{ trans('contact.address2-line3') }}<br>
       <abbr title="{{ trans('contact.phone') }}">{{ trans('contact.phone-abbr') }}:</abbr> 
-      <span class="text-info">{{ trans('contact.phone-number') }}</span>
+      <span class="text-info">{{ trans('contact.address2-phone') }}</span>
     </address>
 
   </div>

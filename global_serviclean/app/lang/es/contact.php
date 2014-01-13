@@ -32,6 +32,8 @@ return array(
 
   'address2-line3'          => 'Escazú, San Jose, Costa Rica',
 
+  'address2-phone'            => '(506) 8897-3856',
+
   'contact-request'         => 'Mensaje de contacto',
 
   'name'                    => 'Nombre',

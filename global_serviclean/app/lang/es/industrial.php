@@ -10,7 +10,7 @@ return array(
 
   'title'                   => 'LIMPIEZA INDUSTRIAL',
 
-  'slogan'                  => 'POR HACER',
+  'slogan'                  => 'Produzca con calidad',
 
   'body'                    => '<p>Limpiamos naves, plantas, bodegas y silos industriales. Ofrecemos los siguientes servicios:</p>
   <p><h3>Limpieza de estructuras</h3></p>

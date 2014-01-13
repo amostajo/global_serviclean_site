@@ -49,4 +49,8 @@
   <div class="slide">
     {{ HTML::image('img/carousel/windows/img003_300x200.jpg') }}
   </div>
+
+  <div class="slide">
+    {{ HTML::image('img/carousel/windows/img004_300x200.jpg') }}
+  </div>
 @stop
