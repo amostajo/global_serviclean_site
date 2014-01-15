@@ -30,6 +30,11 @@
   </div>
 
   <p>
+    <h3>{{ trans('contact.phone') }}</h3>
+    {{ $phone }}
+  </p>
+
+  <p>
     <h3>{{ trans('contact.feedback') }}</h3>
     {{ $feedback }}
   </p>

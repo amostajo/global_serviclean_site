@@ -16,7 +16,7 @@ return array(
 
   'phone-number'            => '(506) 2234-8274',
 
-  'address1-title'          => 'Oficina principal',
+  'address1-title'          => 'Oficina Principal',
 
   'address1-line1'          => 'Oficina 3D, edificio CARISA,',
 
@@ -24,7 +24,7 @@ return array(
 
   'address1-line3'          => 'San Pedro, San Jose, Costa Rica',
 
-  'address2-title'          => 'Sucursal Guachipelín',
+  'address2-title'          => 'Sucursal Escazú',
 
   'address2-line1'          => '2do. piso, edificio esquinero,',
 
@@ -43,6 +43,8 @@ return array(
   'email'                   => 'Email',
 
   'feedback'                => 'Mensaje',
+
+  'phone'                   => 'Teléfono',
 
   'send'                    => 'Enviar',
 

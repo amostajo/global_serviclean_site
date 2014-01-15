@@ -74,6 +74,11 @@
         </div>
 
         <div class="form-group">
+          {{ Form::label('phone', trans('contact.phone')) }}
+          {{ Form::text('phone', '', array('class' => 'form-control', 'placeholder' => trans('contact.phone'))) }}
+        </div>
+
+        <div class="form-group">
           {{ Form::label('feedback', trans('contact.feedback')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
           {{ Form::textarea('feedback', '', array('class' => 'form-control', 'placeholder' => trans('contact.feedback'))) }}
         </div>

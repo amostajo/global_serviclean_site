@@ -9,9 +9,10 @@ class ContactUsController extends \BaseController {
 	 */
 	public function store() {
 		$data = array(
-				'name' => Input::get('name'),
-				'email' => Input::get('email'),
-				'feedback' => Input::get('feedback')
+				'name' 			=> Input::get('name'),
+				'email' 		=> Input::get('email'),
+				'feedback' 	=> Input::get('feedback'),
+				'phone' 		=> Input::get('phone'),
 		);
 		// Validation
 		$validator = Validator::make(
