@@ -33,4 +33,8 @@ return array(
   <p><h3>Seguridad social</h3></p>
   <p>Nuestro personal suministrado se encuentra registrado en la <abbr title="Caja Nacional de Seguridad Social">CNSS</abbr> y asegurado en el <abbr title="Instituto Nacional de Seguros">INS</abbr>; cumplimos las leyes sociales vigentes en Costa Rica.</p>',
 
+  'meta-description'        => 'Global Serviclean le ofrece personal de limpieza para oficinas y toda clase de instalaciones',
+
+  'meta-keywords'           => 'Servicios de limpieza,personal de limpieza,limpieza de oficinas,limpieza de instalaciones,Costa Rica',
+
 );

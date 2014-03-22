@@ -27,4 +27,8 @@ return array(
     </ul>
   </p>',
 
+  'meta-description'        => 'Global Serviclean le ofrece limpieza de naves, plantas, bodegas y silos industriales',
+
+  'meta-keywords'           => 'Servicios de limpieza,limpieza industrial,limpieza de plantas,limpieza de bodegas,limpieza de silos,Costa Rica',
+
 );

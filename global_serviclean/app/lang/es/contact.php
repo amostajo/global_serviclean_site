@@ -54,4 +54,8 @@ return array(
 
   'email-hint'              => 'Se ha enviado un mensaje de contacto a través de nuestro sitio web.',
 
+  'meta-description'        => 'Contacto y cotización de servicios profesionales de limpieza en Costa Rica con Global Serviclean',
+
+  'meta-keywords'           => 'Servicios de limpieza,cotizacion,contacto,presupuesto,cotizar,Costa Rica',
+
 );

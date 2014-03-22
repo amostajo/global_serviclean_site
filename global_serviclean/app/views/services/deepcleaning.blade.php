@@ -16,6 +16,12 @@
   {{ trans('global.service_deepcleaning') }} - @parent
 @stop
 
+{{-- Meta --}}
+@section('meta')
+  <meta name="description" content="{{trans('deepcleaning.meta-description')}}">
+  <meta name="keywords" content="{{trans('deepcleaning.meta-keywords')}}">
+@stop
+
 {{-- Service title --}}
 @section('service-title')
   {{ trans('deepcleaning.title') }}
@@ -39,14 +45,14 @@
 {{-- Service carousel --}}
 @section('service-carousel-slides')
   <div class="slide">
-    {{ HTML::image('img/carousel/deepcleaning/img001_300x200.jpg') }}
+    {{ HTML::image('img/carousel/deepcleaning/img001_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_deepcleaning'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/deepcleaning/img002_300x200.jpg') }}
+    {{ HTML::image('img/carousel/deepcleaning/img002_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_deepcleaning'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/deepcleaning/img003_300x200.jpg') }}
+    {{ HTML::image('img/carousel/deepcleaning/img003_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_deepcleaning'))) ) }}
   </div>
 @stop

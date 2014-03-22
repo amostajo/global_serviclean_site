@@ -19,6 +19,10 @@
       {{trans('global.gs')}} - {{trans('global.sitetitle')}}
     @show
   </title>
+  @section('meta')
+    <meta name="description" content="{{trans('global.meta-description')}}">
+    <meta name="keywords" content="{{trans('global.meta-keywords')}}">
+  @show
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
   {{HTML::style('css/global.css')}}

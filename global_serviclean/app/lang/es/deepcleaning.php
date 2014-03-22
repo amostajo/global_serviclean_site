@@ -27,4 +27,8 @@ return array(
     </ul>
   </p>',
 
+  'meta-description'        => 'Global Serviclean le ofrece limpieza de casas, oficinas y otros inmuebles',
+
+  'meta-keywords'           => 'Servicios de limpieza,Limpieza profunda,Limpieza profunda de inmuebles,Costa Rica',
+
 );

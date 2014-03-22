@@ -17,6 +17,12 @@
   {{ HTML::script('js/jquery.ams.forms.js') }}
 @stop
 
+{{-- Meta --}}
+@section('meta')
+  <meta name="description" content="{{trans('contact.meta-description')}}">
+  <meta name="keywords" content="{{trans('contact.meta-keywords')}}">
+@stop
+
 {{-- WEB Title --}}
 @section('site-title')
   {{ trans('global.contact') }} - @parent

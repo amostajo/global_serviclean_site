@@ -33,25 +33,25 @@
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image002.jpg') }}
+            {{ HTML::image('img/carousel/image002.jpg', trans('global.alt-sample', array('text' => trans('global.cleaning-service'))) ) }}
           </a>
         </div>
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image003.jpg') }}
+            {{ HTML::image('img/carousel/image003.jpg', trans('global.alt-sample', array('text' => trans('global.cleaning-service'))) ) }}
           </a>
         </div>
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image001.jpg') }}
+            {{ HTML::image('img/carousel/image001.jpg', trans('global.alt-sample', array('text' => trans('global.cleaning-service'))) ) }}
           </a>
         </div>
 
         <div class="slide">
           <a href="">
-            {{ HTML::image('img/carousel/image000.jpg') }}
+            {{ HTML::image('img/carousel/image000.jpg', trans('global.alt-sample', array('text' => trans('global.cleaning-service'))) ) }}
           </a>
         </div>
 
@@ -71,7 +71,7 @@
   <div class="col-sm-6 col-md-4">
     <div>
       <div class="text-center new-tag">
-        {{ HTML::image('img/index/availability.clock.png') }}
+        {{ HTML::image('img/index/availability.clock.png', trans('index.ms1_title') ) }}
         <div class="caption">
           <h3>{{trans('index.ms1_title')}}</h3>
           <p>{{trans('index.ms1_summary')}}</p>
@@ -83,7 +83,7 @@
   <div class="col-sm-6 col-md-4">
     <div>
       <div class="text-center new-tag">
-        {{ HTML::image('img/index/quality.ribbon.png') }}
+        {{ HTML::image('img/index/quality.ribbon.png', trans('index.ms2_title') ) }}
         <div class="caption">
           <h3>{{trans('index.ms2_title')}}</h3>
           <p>{{trans('index.ms2_summary')}}</p>
@@ -95,7 +95,7 @@
   <div class="col-sm-6 col-md-4">
     <div>
       <div class="text-center new-tag">
-        {{ HTML::image('img/index/technology.png') }}
+        {{ HTML::image('img/index/technology.png', trans('index.ms3_title') ) }}
         <div class="caption">
           <h3>{{trans('index.ms3_title')}}</h3>
           <p>{{trans('index.ms3_summary')}}</p>

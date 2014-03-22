@@ -16,6 +16,12 @@
   {{ trans('global.service_windows') }} - @parent
 @stop
 
+{{-- Meta --}}
+@section('meta')
+  <meta name="description" content="{{trans('windows.meta-description')}}">
+  <meta name="keywords" content="{{trans('windows.meta-keywords')}}">
+@stop
+
 {{-- Service title --}}
 @section('service-title')
   {{ trans('windows.title') }}
@@ -39,18 +45,18 @@
 {{-- Service carousel --}}
 @section('service-carousel-slides')
   <div class="slide">
-    {{ HTML::image('img/carousel/windows/img001_300x200.jpg') }}
+    {{ HTML::image('img/carousel/windows/img001_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_windows'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/windows/img002_300x200.jpg') }}
+    {{ HTML::image('img/carousel/windows/img002_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_windows'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/windows/img003_300x200.jpg') }}
+    {{ HTML::image('img/carousel/windows/img003_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_windows'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/windows/img004_300x200.jpg') }}
+    {{ HTML::image('img/carousel/windows/img004_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_windows'))) ) }}
   </div>
 @stop

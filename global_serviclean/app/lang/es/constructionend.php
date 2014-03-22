@@ -27,4 +27,8 @@ return array(
     </ul>
   </p>',
 
+  'meta-description'        => 'Global Serviclean le ofrece limpieza de inmuebles al finalizar su construcción o remodelación.',
+
+  'meta-keywords'           => 'Servicios de limpieza,Limpieza final de obra,fin de obra,Costa Rica',
+
 );

@@ -20,4 +20,8 @@ return array(
   <p><h3>Pulido de vidrios</h3></p>
   <p>El pulido remueve las manchas de agua dura (agua con altas concentraciones de minerales disueltos como calcio y magnesio), presentes, principalmente, en vidrios de duchas y vidrios de edificios expuestos al agua de caño.</p>',
 
+  'meta-description'        => 'Global Serviclean le ofrece limpieza de vidrios y fachadas por descenso o con andamios',
+
+  'meta-keywords'           => 'Servicios de limpieza,limpieza de vidrios,limpieza de fachadas,limpieza por descenso,Costa Rica',
+
 );

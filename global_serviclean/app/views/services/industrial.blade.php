@@ -16,6 +16,12 @@
   {{ trans('global.service_industrial') }} - @parent
 @stop
 
+{{-- Meta --}}
+@section('meta')
+  <meta name="description" content="{{trans('industrial.meta-description')}}">
+  <meta name="keywords" content="{{trans('industrial.meta-keywords')}}">
+@stop
+
 {{-- Service title --}}
 @section('service-title')
   {{ trans('industrial.title') }}
@@ -39,18 +45,18 @@
 {{-- Service carousel --}}
 @section('service-carousel-slides')
   <div class="slide">
-    {{ HTML::image('img/carousel/industrial/img001_300x200.jpg') }}
+    {{ HTML::image('img/carousel/industrial/img001_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_industrial'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/industrial/img002_300x200.jpg') }}
+    {{ HTML::image('img/carousel/industrial/img002_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_industrial'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/industrial/img003_300x200.jpg') }}
+    {{ HTML::image('img/carousel/industrial/img003_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_industrial'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/industrial/img004_300x200.jpg') }}
+    {{ HTML::image('img/carousel/industrial/img004_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_industrial'))) ) }}
   </div>
 @stop

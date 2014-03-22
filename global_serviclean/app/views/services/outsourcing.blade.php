@@ -16,6 +16,12 @@
   {{ trans('global.service_outsourcing') }} - @parent
 @stop
 
+{{-- Meta --}}
+@section('meta')
+  <meta name="description" content="{{trans('outsourcing.meta-description')}}">
+  <meta name="keywords" content="{{trans('outsourcing.meta-keywords')}}">
+@stop
+
 {{-- Service title --}}
 @section('service-title')
   {{ trans('outsourcing.title') }}
@@ -39,18 +45,18 @@
 {{-- Service carousel --}}
 @section('service-carousel-slides')
   <div class="slide">
-    {{ HTML::image('img/carousel/outsourcing/img001_300x200.jpg') }}
+    {{ HTML::image('img/carousel/outsourcing/img001_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_outsourcing'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg') }}
+    {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_outsourcing'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/outsourcing/img003_300x200.jpg') }}
+    {{ HTML::image('img/carousel/outsourcing/img003_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_outsourcing'))) ) }}
   </div>
 
   <div class="slide">
-    {{ HTML::image('img/carousel/outsourcing/img004_300x200.jpg') }}
+    {{ HTML::image('img/carousel/outsourcing/img004_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service_outsourcing'))) ) }}
   </div>
 @stop

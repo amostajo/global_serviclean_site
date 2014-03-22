@@ -63,19 +63,19 @@
       <div class="bxslider new-following-tag">
         @section('service-carousel-slides')
           <div class="slide">
-            {{ HTML::image('img/carousel/outsourcing/img001_300x200.jpg') }}
+            {{ HTML::image('img/carousel/outsourcing/img001_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service'))) ) }}
           </div>
 
           <div class="slide">
-            {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg') }}
+            {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service'))) ) }}
           </div>
 
           <div class="slide">
-            {{ HTML::image('img/carousel/outsourcing/img003_300x200.jpg') }}
+            {{ HTML::image('img/carousel/outsourcing/img003_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service'))) ) }}
           </div>
 
           <div class="slide">
-            {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg') }}
+            {{ HTML::image('img/carousel/outsourcing/img002_300x200.jpg', trans('global.alt-sample', array('text' => trans('global.service'))) ) }}
           </div>
         @show
       </div>

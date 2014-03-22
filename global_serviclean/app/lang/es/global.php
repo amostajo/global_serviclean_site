@@ -59,4 +59,12 @@ return array(
 
   'linkedin'                => 'LinkedIn',
 
+  'alt-sample'              => 'Ejemplo de :text',
+
+  'cleaning-service'        => 'Servicio de limpieza',
+
+  'meta-description'        => 'Empresa de servicios profesionales de limpieza en Costa Rica. En Global Serviclean le ofrecemos servicios de calidad en limpieza.',
+
+  'meta-keywords'           => 'Servicios de limpieza,Limpieza,Costa Rica',
+
 );
