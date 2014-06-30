@@ -50,36 +50,31 @@
                     <li>
                       {{HTML::link(
                         URL::route('outsourcing'), 
-                        trans('global.service_outsourcing'), 
-                        array('alt' => trans('global.service_outsourcing'))
+                        trans('global.service_outsourcing')
                       )}}
                     </li>
                     <li>
                       {{HTML::link(
                         URL::route('windows'), 
-                        trans('global.service_windows'), 
-                        array('alt' => trans('global.service_windows'))
+                        trans('global.service_windows')
                       )}}
                     </li>
                     <li>
                       {{HTML::link(
                         URL::route('constructionend'), 
-                        trans('global.service_constructionend'), 
-                        array('alt' => trans('global.service_constructionend'))
+                        trans('global.service_constructionend')
                       )}}
                     </li>
                     <li>
                       {{HTML::link(
                         URL::route('deepcleaning'), 
-                        trans('global.service_deepcleaning'), 
-                        array('alt' => trans('global.service_deepcleaning'))
+                        trans('global.service_deepcleaning')
                       )}}
                     </li>
                     <li>
                       {{HTML::link(
                         URL::route('industrial'), 
-                        trans('global.service_industrial'), 
-                        array('alt' => trans('global.service_industrial'))
+                        trans('global.service_industrial')
                       )}}
                     </li>
                   </ul>
@@ -87,15 +82,13 @@
                 <li>
                   {{HTML::link(
                     URL::route('employment'), 
-                    trans('global.employment'), 
-                    array('alt' => trans('global.employment'))
+                    trans('global.employment')
                   )}}
                 </li>
                 <li>
                   {{HTML::link(
                     URL::route('contact'), 
-                    trans('global.contact'), 
-                    array('alt' => trans('global.contact'))
+                    trans('global.contact')
                   )}}
                 </li>
               </ul>
@@ -124,27 +117,25 @@
           <div class="hr"></div>
           <div class="row-fluid">
             @section('footer')
-            <small>
-              <div class="col-md-5">
-                &copy; {{date('Y')}} {{trans('global.company')}} {{trans('global.allrights')}} 
-                <div>
-                  <small>
-                    {{trans('global.powered_by')}} {{HTML::link('http://laravel.com/', 'Laravel', array('alt' => 'Laravel', 'title' => 'Laravel'))}}, 
-                    {{trans('global.developed_by')}}  {{HTML::link('http://about.me/amostajo', 'Alejandro Mostajo', array('alt' => 'Bearded', 'title' => 'Amostajo'))}}.
-                  </small>
-                </div>
+            <div class="col-md-5">
+              <small>&copy; {{date('Y')}} {{trans('global.company')}} {{trans('global.allrights')}}</small>
+              <div>
+                <small><small>
+                  {{trans('global.powered_by')}} {{HTML::link('http://laravel.com/', 'Laravel', array('title' => 'Laravel'))}}, 
+                  {{trans('global.developed_by')}}  {{HTML::link('http://about.me/amostajo', 'Alejandro Mostajo', array('title' => 'Amostajo'))}}.
+                </small></small>
               </div>
-              <div class="col-md-4 text-center">
-              </div>
-              <div class="col-md-3">
-                <ul class="list-unstyled">
-                  @section('footer-links')
-                  @show
-                  <li><a href="#">{{trans('global.terms')}}</a></li>
-                  <li><a href="#">{{trans('global.privacypolicy')}}</a></li>
-                </ul>
-              </div>
-            </small>
+            </div>
+            <div class="col-md-4 text-center">
+            </div>
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                @section('footer-links')
+                @show
+                <li><a href="#"><small>{{trans('global.terms')}}</small></a></li>
+                <li><a href="#"><small>{{trans('global.privacypolicy')}}</small></a></li>
+              </ul>
+            </div>
             @show
           </div>
         </footer>
