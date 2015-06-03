@@ -14,13 +14,10 @@ return array(
 
   'requirements-list'       => '<ul>
     <li>Ser mayor de edad.</li>
-    <li>2 fotografías recientes tamaño pasaporte.</li>
-    <li>2 años de experiencia en limpieza de oficinas.</li>
-    <li>Cédula de Identidad o de Residencia.</li>
-    <li>Hoja de delincuencia al día, con 3 meses de antigüedad como máximo.</li>
-    <li>Cédula de Identidad o de Residencia.</li>
-    <li>Copia del recibo de servicio público donde indique la dirección de su residencia actual.</li>
-    <li>Carnet del seguro social <span class="text-info">(sólo para extranjeros)</span>.</li>
+    <li>Tener experiencia en limpieza de oficinas.</li>
+    <li>Tener Cédula de Identificación o Cédula de Residencia.</li>
+    <li>Tener Hoja de Delincuencia al día, con 3 meses de antigüedad como máximo.</li>
+    <li>Tener recibo de un servicio público donde indique la dirección de su residencia actual.</li>
   </ul>',
 
   'benefits'                => 'Beneficios',
@@ -74,6 +71,8 @@ return array(
   'resume-size'             => '(150 KB máximo)',
 
   'send'                    => 'Enviar',
+
+  'form'                    => 'Formulario de empleo',
 
   'send-success'            => '<strong>Su mensaje ha sido enviado.</strong> Le estaremos contestando pronto.',
 

@@ -58,74 +58,14 @@
 
       <div class="panel-body">
 
-        <div class="text-info">
+        <p class="text-info">
           {{ trans('employment.request-legend') }}
-        </div>
+        </p>
 
-        {{ Form::open(array('action-url' => URL::to('processing/employment'), 'class' => 'ajaxForm')) }}
+        <p>
+          <a href="http://goo.gl/forms/tDnNwrIxfB" class="btn btn-success btn-block" role="button">@lang('employment.form')</a>
+        </p>
 
-        <div class="form-group new-tag">
-          {{ Form::label('name', trans('employment.name')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('name', '', array('class' => 'form-control', 'placeholder' => trans('employment.fullname'))) }}
-        </div>
-
-        <div class="form-group">
-          {{ Form::label('email', trans('employment.email')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::email('email', '', array('class' => 'form-control', 'placeholder' => trans('employment.email'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('id', trans('employment.id')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('id', '', array('class' => 'form-control', 'placeholder' => trans('employment.fullid'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('birthPlace', trans('employment.birth-place')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('birthPlace', '', array('class' => 'form-control', 'placeholder' => trans('employment.birth-place'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('birthDate', trans('employment.birth-date')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('birthDate', '', array('class' => 'form-control datepicker', 'placeholder' => trans('employment.birth-date'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('status', trans('employment.status')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('status', '', array('class' => 'form-control', 'placeholder' => trans('employment.status'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('phone', trans('employment.phone')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('phone', '', array('class' => 'form-control', 'placeholder' => trans('employment.phone'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('province', trans('employment.province')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('province', '', array('class' => 'form-control', 'placeholder' => trans('employment.province-hint'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('canton', trans('employment.canton')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('canton', '', array('class' => 'form-control', 'placeholder' => trans('employment.canton-hint'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('district', trans('employment.district')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('district', '', array('class' => 'form-control', 'placeholder' => trans('employment.district-hint'))) }}
-        </div>
-
-        <div class="form-group new-tag">
-          {{ Form::label('studies', trans('employment.studies')) }} <span class="text-info">({{ trans('services.required-field') }})</span>
-          {{ Form::text('studies', '', array('class' => 'form-control', 'placeholder' => trans('employment.studies'))) }}
-        </div>
-
-        <div class="alert"></div>
-
-        <button type="submit" class="btn btn-primary" data-loading-text="{{ trans('contact.send') }}...">
-          <span class="glyphicon glyphicon-envelope"></span> {{ trans('contact.send') }}
-        </button>
-
-        {{ Form::close() }}
       </div>
 
     </div>
